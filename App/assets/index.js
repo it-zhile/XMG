@@ -4,9 +4,9 @@
  * Desc: 名字默认为 index.js ，修改后会报错。
  *       所有资源必须通过这个类导出一遍才能在其他类中调用
  */
-import Colors from './Colors'
-import Images from './Images'
+import Colors from './Colors';
+import ImgUrls from './ImgUrls';
 import CommonStyles from './CommonStyles';
 import Constants from './Constants';
 
-export {Colors, Images, CommonStyles,Constants}
+export { ImgUrls, Colors, CommonStyles, Constants };

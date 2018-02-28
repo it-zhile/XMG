@@ -4,7 +4,7 @@
  * Desc:
  */
 const commonStyles = {
-
+    
 }
 
 export default commonStyles;

@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from 'react';
-import { Platform } from 'react-native';
+import { Platform, View, Text } from 'react-native';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -15,12 +15,12 @@ const instructions = Platform.select({
 });
 
 /** 导入入口导航文件  */
-import Index from './App/index';
+import Navigator from './App/index';
 
-export default class App extends Component<{}> {
+export default class App extends Component {
   render() {
     return (
-      <Index />
+      <Navigator />
     );
   }
 }
