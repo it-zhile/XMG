@@ -5,6 +5,11 @@
  */
 const ImgUrls = {
     /**
+     * launchImage - 启动图片 
+     */
+    launchImage:require('./images/launchImage/launchimage.png'),
+
+    /**
      * tabbar - 底部导航栏 
      */
     tabbar_home:require('./images/tabbar/icon_tabbar_homepage.png'),
