@@ -10,6 +10,11 @@ const ImgUrls = {
     launchImage:require('./images/launchImage/launchimage.png'),
 
     /**
+     * icon - 通用图标 
+     */
+    icon_setting:require('./images/icon/icon_mine_setting.png'),
+
+    /**
      * tabbar - 底部导航栏 
      */
     tabbar_home:require('./images/tabbar/icon_tabbar_homepage.png'),
